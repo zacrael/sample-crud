@@ -1,0 +1,67 @@
+.register-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 100%;
+  /* background: LINEAR-GRADIENT(TO RIGHT, RGB(255, 72, 164), RGB(179, 0, 89)); */
+  /* background: #ccc; */
+}
+.card-reg {
+  padding: 40px 35px 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -ms-flex-align: center;
+  width: 70%;
+  height: 100%;
+  border: solid 1px;
+  border-color: #ccc;
+  border-radius: 20px;
+
+  /* background: LINEAR-GRADIENT(TO RIGHT, RGB(255, 72, 164), RGB(179, 0, 89)); */
+  -moz-box-shadow: 3px 3px 5px 0px #ccc;
+  -webkit-box-shadow: 3px 3px 0px 60px #ccc;
+  box-shadow: 10px 10px 10px 10px #ccc;
+}
+.ant-col-xs-24.ant-form-item-label {
+  display: block;
+  margin: 0;
+  padding: 0 0 5px;
+  line-height: 1.5;
+  white-space: initial;
+  text-align: left;
+}
+
+.ant-form {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-feature-settings: "tnum";
+  font-feature-settings: "tnum";
+  width: 100%;
+}
+.ant-form.ant-form.horizontal {
+  width: 100%;
+}
+/* .ant-card-body {
+  padding: 140px 35px 250px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -ms-flex-align: center;
+
+  width: 100%;
+  height: 100%;
+} */

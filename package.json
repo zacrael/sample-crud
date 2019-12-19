@@ -1,0 +1,30 @@
+{
+  "name": "firebase_test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.6.1",
+    "@material-ui/icons": "^4.5.1",
+    "antd": "^3.25.1",
+    "classnames": "^2.2.6",
+    "firebase": "^5.2.0",
+    "react": "^16.4.1",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-redux-firebase": "^2.1.6",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-auth-wrapper": "^2.0.3",
+    "redux-firestore": "^0.5.7",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^9.3.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
