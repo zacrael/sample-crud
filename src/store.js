@@ -8,23 +8,8 @@ import notifyReducer from "./reducers/notifyReducer";
 import settingsReducer from "./reducers/settingsReducer";
 import loginReducer from "./reducers/loginReducer";
 
-// const firebaseConfig = {
-//   apiKey: 'AIzaSyAj2cQpepAuQjR_BzjiXikbV2zACUF5vsY',
-//   authDomain: 'reactclientpanel-61f9d.firebaseapp.com',
-//   databaseURL: 'https://reactclientpanel-61f9d.firebaseio.com',
-//   projectId: 'reactclientpanel-61f9d',
-//   storageBucket: 'reactclientpanel-61f9d.appspot.com',
-//   messagingSenderId: '485531386544'
-// };
 const firebaseConfig = {
-  apiKey: "AIzaSyBaDhgT0XVcY_JvfQCdPYdaD9RXfeinZvs",
-  authDomain: "react-portf-e16fc.firebaseapp.com",
-  databaseURL: "https://react-portf-e16fc.firebaseio.com",
-  projectId: "react-portf-e16fc",
-  storageBucket: "react-portf-e16fc.appspot.com",
-  messagingSenderId: "352132388272",
-  appId: "1:352132388272:web:cee26ba2f974df4862b275",
-  measurementId: "G-F2K8TL6K63"
+  //api key
 };
 // react-redux-firebase config
 const rrfConfig = {
@@ -35,14 +20,6 @@ const rrfConfig = {
 // Init firebase instance
 firebase.initializeApp(firebaseConfig);
 
-// const storage = firebase.storage();
-// export { storage, firebase as default };
-// Init firestore
-// const firestore = firebase.firestore();
-// const settings = { timestampsInSnapshots: false };
-// firestore.settings(settings);
-
-// Add reactReduxFirebase enhancer when making store creator
 const createStoreWithFirebase = compose(
   reactReduxFirebase(firebase, rrfConfig), // firebase instance as first argument
   reduxFirestore(firebase)
