@@ -37,7 +37,7 @@ class AppNavbar extends Component {
       <nav className="navbar navbar-expand-lg navbar-dark bg-company mb-4">
         <div className="nav-cont">
           <Link to="/" className="navbar-brand">
-            <i className="fas fa-address-book"> </i> Firebase Test
+            <i className="fas fa-address-book"> </i> RP INNOTECH
           </Link>
           <button
             className="navbar-toggler"
