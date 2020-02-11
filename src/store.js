@@ -10,14 +10,7 @@ import loginReducer from "./reducers/loginReducer";
 
 const firebaseConfig = {
   //api key
-  apiKey: "AIzaSyBaDhgT0XVcY_JvfQCdPYdaD9RXfeinZvs",
-    authDomain: "react-portf-e16fc.firebaseapp.com",
-    databaseURL: "https://react-portf-e16fc.firebaseio.com",
-    projectId: "react-portf-e16fc",
-    storageBucket: "react-portf-e16fc.appspot.com",
-    messagingSenderId: "352132388272",
-    appId: "1:352132388272:web:cee26ba2f974df4862b275",
-    measurementId: "G-F2K8TL6K63"
+  
 };
 // react-redux-firebase config
 const rrfConfig = {
